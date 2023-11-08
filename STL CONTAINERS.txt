@@ -1,0 +1,52 @@
+STL has 4 components:
+
+--> Algorithms
+--> Containers
+--> Functors
+--> Iterators
+
+1. Algorithms
+The header algorithm defines a collection of functions specially 
+designed to be used on a range of elements. They act on containers 
+and provide means for various operations for the contents of the containers.
+
+~ Algorithm
+~ Sorting
+~ Searching
+~ Important STL Algorithms
+~ Useful Array algorithms
+~ Partition Operations
+~ Numeric
+~ valarray class
+
+2. Containers
+Containers or container classes store objects and data. 
+There are in total seven standards “first-class” container 
+classes and three container adaptor classes and only seven 
+header files that provide access to these containers or container adaptors.
+
+Sequence Containers: implement data structures that can be accessed in a sequential manner.
+~ vector
+~ list
+~ deque
+~ arrays
+~ forward_list( Introduced in C++11)
+
+Container Adaptors: provide a different interface for sequential containers.
+~ queue
+~ priority_queue
+~ stack
+
+Associative Containers: implement sorted data structures that can be quickly searched (O(log n) complexity).
+~ set
+~ multiset
+~ map
+~ multimap
+
+Unordered Associative Containers: implement unordered data structures that can be quickly searched
+~ unordered_set (Introduced in C++11)
+~ unordered_multiset (Introduced in C++11)
+~ unordered_map (Introduced in C++11)
+~ unordered_multimap (Introduced in C++11)
+
+PREPARE WELL, ALL THE VERY BEST...!
